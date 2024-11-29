@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#77eeec77;
+    
+}
+
+h2 {
+    text-align:justify;
+}
+
+p {
+    text-align: justify;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.top-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* garante que o menu ficará sobre outros elementos */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* adiciona uma sombra para destaque */
+}
+
+
+.top-menu {
+    background-color: #fff8e1;
+    padding: 10px 20px;
+    border-bottom: 1px solid #d60d5a;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top-menu ul li {
+    margin: 0 10px;
+}
+
+.top-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.top-menu ul li a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #77eee8;
+    padding: 40px;
+}
+
+.header-logo .logo {
+    height: 150px;
+    margin-right: 20px;
+}
+
+.whatsapp-button {
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    border-color: #128c7e;
+}
+
+header {
+    background-color:#77eee8;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    padding: 20px;
+}
+
+.photo-wallpaper {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-wallpaper img {
+    width: 92%; 
+}
+
+.photo-quebracabeca img {
+    width: 75%;
+    padding: 10px;
+}
+
+.photo-quebracabeca {
+    display: flex; 
+    justify-content: center;
+}
+
+
+.photo-missao img {
+    width: 75%;
+    padding: 10px;
+}
+
+.photo-missao {
+    display: flex; justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffecb3;
+    padding: 20px;
+}
+
+.contact-info, .geo-location {
+    width: 48%;
+}
+
+.geo-location a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.geo-location img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.foto {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+}
+
+.foto p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contact-info, .geo-location {
+    flex: 1;
+    margin: 10px;
+    min-width: 300px; /* Garantir que os elementos fiquem adequados em telas menores */
+}
